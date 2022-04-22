@@ -1,0 +1,38 @@
+{
+  "name": "kabu-cli",
+  "version": "1.0.0",
+  "description": "powerful cli",
+  "main": "index.js",
+  "bin": {
+    "kabu": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": {
+    "name": "kabu",
+    "email": "447519276@qq.com"
+  },
+  "keywords": [
+    "kabu-cli",
+    "kabu",
+    "脚手架"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "4.0.0",
+    "commander": "^9.2.0",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.2",
+    "ora": "5.0.0",
+    "util": "^0.12.4"
+  }
+}
