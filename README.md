@@ -2,35 +2,26 @@
 
 ## 安装
 
-### install
-
----
-
 ```
 $ npm install -g kabu-cli
-
 or yarn
 yarn add -g kabu-cli
 ```
 
 ## 使用
 
-### Quick Start
 
----
 
 ```
 $ kabu create <name> [-f|--force]
 ```
 
-### Options
+## Options
 
----
 
 -   -f,--force : Overwrite if the target exists
 
 ## Keywords
 
----
 
 kabu-cli kabu 脚手架
